@@ -1,0 +1,12 @@
+logs
+*.log
+npm-debug.log*
+
+# Node.js dependencies
+/node_modules
+
+# Environment variables
+.env
+
+# Vite build output
+/dist
