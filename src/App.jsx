@@ -1,7 +1,6 @@
 
 import './App.css'
-import Header from './components/Common/Header/index.js';
-
+import Header from './components/Common/Header'
 import Footer from './components/Common/Footer'
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <Footer />
+      {/* <Footer /> */}
 
     </>
   )

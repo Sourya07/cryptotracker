@@ -1,1 +1,29 @@
-  
+  .navbar {
+      margin: 0%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: var(--black);
+      position: sticky;
+
+
+  }
+
+  .links {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1.5rem;
+  }
+
+  .link {
+      color: var(--grey);
+      font-weight: 600;
+      font-size: 1rem;
+  }
+
+  .link:hover {
+      color: var(--white);
+      transition: all 0.3s;
+  }

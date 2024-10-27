@@ -39,3 +39,9 @@ body {
   background: var(--blue);
   border-radius: 10px;
 }
+
+
+a {
+  color: var(--white) !important;
+  text-decoration: none !important;
+}
