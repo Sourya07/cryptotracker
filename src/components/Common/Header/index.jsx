@@ -1,5 +1,6 @@
 import React from 'react'
 import "./style.css"
+import TemporaryDrawer from './drawer';
 
 function Header() {
   return (
@@ -15,6 +16,9 @@ function Header() {
         <a href="/">
           <p className='link'>Dashboard</p>
         </a>
+      </div>
+      <div className="drawer-component">
+        <TemporaryDrawer />
       </div>
     </div>
   )

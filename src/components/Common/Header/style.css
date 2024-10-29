@@ -23,7 +23,51 @@
       font-size: 1rem;
   }
 
+
+
+
+  .drawer-component {
+      display: none;
+  }
+
+
+  .drawer-div {
+      width: 30vw;
+      padding: 1.5rem;
+      background-color: var(--black);
+      height: 100vh;
+  }
+
+
   .link:hover {
       color: var(--white);
       transition: all 0.3s;
+  }
+
+
+
+  @media only screen and (max-width: 800px) {
+      .navbar {
+          padding: 1.5rem;
+      }
+
+      .link {
+          font-size: 0.8rem;
+      }
+
+      .links {
+          display: none;
+      }
+
+
+
+      .drawer-component {
+          display: block;
+      }
+
+
+
+
+
+
   }
