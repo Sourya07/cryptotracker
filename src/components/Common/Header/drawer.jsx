@@ -5,7 +5,7 @@ import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import { IconButton } from '@mui/material';
 
 export default function TemporaryDrawer() {
-    const [open, setopen] = useState(true)
+    const [open, setopen] = useState(false)
 
 
 
