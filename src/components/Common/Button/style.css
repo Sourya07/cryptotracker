@@ -4,7 +4,10 @@
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
     font-weight: 600;
-    cursor: pointer
+    cursor: pointer;
+    text-align: center;
+    min-width: 100px;
+    text-transform: capitalize;
 }
 
 .btn:hover {
@@ -19,7 +22,9 @@
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
     font-weight: 600;
-    cursor: pointer
+    cursor: pointer;
+    text-align: center;
+    min-width: 100px;
 }
 
 .outline-btn:hover {

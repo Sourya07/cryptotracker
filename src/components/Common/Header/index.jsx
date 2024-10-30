@@ -20,7 +20,6 @@ function Header() {
         <a href="/">
           <Buttons
             text={"Dashboard"}
-            outlined={true}
             onClick={() => console.log("hello there")}
           ></Buttons>
         </a>
