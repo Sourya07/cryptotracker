@@ -3,6 +3,8 @@ import "./styles.css"
 import Buttons from '../../Common/Button'
 import iphone from "../../../assets/iphone.png";
 import gradient from "../../../assets/gradient.png"
+import { motion } from "framer-motion"
+
 function Main() {
     return (
         <div className='flex-info'>
@@ -21,7 +23,16 @@ function Main() {
             </div>
 
             <div className='phone-container'>
-                <img src={iphone} className='iphone' />
+                <motion.img src={iphone} className='iphone'
+                    initial={{ y: -10 }}
+                    animate={{ y: 10 }}
+                    transition={{
+                        type: "smooth",
+                        repeatType: "mirror",
+                        duration: 2,
+                        repeat: Infinity,
+                    }}
+                />
                 <img src={gradient}
                     className='gradient' />
 
