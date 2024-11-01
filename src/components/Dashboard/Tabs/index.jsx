@@ -5,7 +5,7 @@ import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 
-export default function TabsComponent() {
+export default function TabsComponent({ coins }) {
     const [value, setValue] = useState('grid');
 
     const handleChange = (event, newValue) => {
@@ -34,10 +34,27 @@ export default function TabsComponent() {
 
                     </TabList>
                 </div>
-                <TabPanel value="grid">Item One</TabPanel>
+                <TabPanel value="grid">
+                    <div>
+                        {coins.map((item, i) => {
+                            return (
+                                <div>
+                                    <img src={item.image} />
+                                    <p key={i}>
+                                        {i + 1}.{item.name}
+                                    </p>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </TabPanel>
                 <TabPanel value="list">Item Two</TabPanel>
 
             </TabContext>
         </div>
     );
 }
+
+
+
+
