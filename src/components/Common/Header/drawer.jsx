@@ -29,7 +29,7 @@ export default function TemporaryDrawer() {
                     <a href="/">
                         <p className='link'>Watchlist</p>
                     </a>
-                    <a href="/">
+                    <a href="# ">
                         <p className='link'>Dashboard</p>
                     </a>
                 </div>

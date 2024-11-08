@@ -6,7 +6,8 @@ function Buttons({ text, onClick, outlined }) {
         <div className=
             {outlined ? "outline-btn" : 'btn'}
             onClick={() => onClick}>
-            {text}</div>
+            {text}
+        </div>
     )
 }
 
