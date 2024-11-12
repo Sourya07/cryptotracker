@@ -1,0 +1,22 @@
+.abes {
+    display: flex;
+    margin: 3px;
+    color: blue;
+    border: 2px solid white;
+    background-color: gray;
+    height: 50vh;
+    width: 50vh;
+
+
+}
+
+.abes1 {
+
+    margin: 20px;
+    border: 2px solid white;
+    background-color: gray;
+    height: 20vh;
+    width: 20vh;
+
+
+}

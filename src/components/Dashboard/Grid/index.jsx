@@ -2,10 +2,8 @@ import React from 'react';
 import "./styles.css";
 import TrendingUpRoundedIcon from '@mui/icons-material/TrendingUpRounded';
 import TrendingDownRoundedIcon from '@mui/icons-material/TrendingDownRounded';
-
 function Grid({ coin }) {
     console.log(coin);
-
     return (
         <div className='grid-container'>
             <div className='info-flex'>
@@ -15,7 +13,6 @@ function Grid({ coin }) {
                     <p className='coin-name'>{coin.name}</p>
                 </div>
             </div>
-
             {coin.market_cap_change_percentage_24h > 0 ? (
                 <div className='chip-flex'>
                     <div className='price-chip'>
@@ -46,9 +43,7 @@ function Grid({ coin }) {
                     Totalvolume: Rs{coin.market_cap.toLocaleString()}
                 </p>
             </div>
-
         </div>
     );
 }
-
 export default Grid;

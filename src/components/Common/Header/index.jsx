@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className='navbar'>
-      <h1> Cryptotracker <span style={{ color: "var(--blue)" }}>.</span></h1>
+      <h1> StringX  <span style={{ color: "var(--blue)" }}>.</span></h1>
       <div className='links'>
         <Link to="/">
           <p className='link'>Home</p>
