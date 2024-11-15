@@ -8,7 +8,7 @@ function Homepage() {
         <div>
             <Header />
             <Main />
-            <Abes />
+
 
         </div>
     )
