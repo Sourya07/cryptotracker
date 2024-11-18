@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '../components/Common/Header';
 import TabsComponent from '../components/Dashboard/Tabs';
 import axios from 'axios';
+import Search from '../components/Dashboard/Search';
 
 function Dashboardpage() {
     const [coins, setCoins] = useState([]);
@@ -19,7 +20,9 @@ function Dashboardpage() {
 
     return (
         <div>
+
             <Header />
+            <Search />
             <TabsComponent coins={coins} />
 
 

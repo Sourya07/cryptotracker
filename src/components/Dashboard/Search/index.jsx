@@ -1,19 +1,15 @@
 import React from 'react'
 import './style.css'
+import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 
-
-function
-    Abes() {
+function Search() {
     return (
-        <div className='abes'>
-            <div className='abes1'>
-                hello
-            </div>
-            <div className='abes1'>
-                secodn
-            </div>
+        <div className='search-flex'>
+            < SearchRoundedIcon />
+            <input />
+
         </div>
     )
 }
 
-export default Abes;
+export default Search;

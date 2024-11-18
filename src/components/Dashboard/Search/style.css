@@ -1,22 +1,27 @@
-.abes {
+.search-flex {
     display: flex;
-    margin: 3px;
-    color: blue;
-    border: 2px solid white;
-    background-color: gray;
-    height: 50vh;
-    width: 50vh;
-
-
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    color: var(--grey);
+    background-color: var(--darkgrey);
+    width: 80%;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3rem;
 }
 
-.abes1 {
+input {
+    background-color: var(--darkgrey);
+    width: 100%;
+    font-family: "Inter";
+    font-size: 0.8rem;
+    color: var(--grey);
+    border: none;
+}
 
-    margin: 20px;
-    border: 2px solid white;
-    background-color: gray;
-    height: 20vh;
-    width: 20vh;
-
-
+.search-flex input:focus {
+    outline: none;
 }
