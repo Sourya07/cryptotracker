@@ -16,6 +16,8 @@ function App() {
           {/* <Route path="/coin/:id" element={<CoinPage />} />
           <Route path="/compare" element={<ComaparePage />} />
           <Route path="/watchlist" element={<WatchlistPage />} /> */}
+          <Route path="/compare" element={<ComaparePage />} />
+          <Route path="/watchlist" element={<WatchlistPage />} />
 
 
         </Routes>
